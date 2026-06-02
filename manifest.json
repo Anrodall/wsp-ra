@@ -5,14 +5,19 @@
       "id": "demo",
       "type": "raster",
       "previewPublicPath": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Topo_map_example.png",
-      "demPublicPath": null,
+      "demPublicPath": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Topo_map_example.png",
       "bbox": {
         "minLon": -70.01,
         "minLat": -22.01,
         "maxLon": -69.99,
         "maxLat": -21.99
       },
-      "demMeta": null
+      "demMeta": {
+        "width": 100,
+        "height": 100,
+        "noData": -9999,
+        "centerElevation": 0
+      }
     }
   ]
 }
