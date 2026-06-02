@@ -4,16 +4,16 @@
     "slug": "geo-ar-viewer",
     "version": "1.0.0",
     "orientation": "portrait",
-
     "icon": "./assets/icon.png",
+    "scheme": "geoarviewer",
+    "userInterfaceStyle": "automatic",
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-
     "android": {
-      "package": "com.wsp.geoarviewer",
+      "package": "com.andres.geoarviewer",
       "permissions": [
         "CAMERA",
         "ACCESS_FINE_LOCATION"
